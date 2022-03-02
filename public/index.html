@@ -311,7 +311,7 @@
           Unser Ziel ist es Hilfsgüter aus Hannover zu sammeln und an die polnisch-ukrainische Grenze zu bringen.
         </p>
         <a
-          href="https://www.ukraine-soforthilfe-hannover.de/helfen"
+          href="mailto:info@ukraine-soforthilfe.de"
           class="btn btn-primary"
         >
           <i class="icon-arrow-right"></i>
@@ -364,7 +364,7 @@
           <p class="lead"> Wir sind junge Hannoveraner:innen, die der sich anbahnenden humanitären Kriese in der ukranischen Grenzregion entgegen stellen wollen. Durch den Transport und der Zuverfügungsstellung dringend benötigter Güter an der ukrainisch-polnischen Grenze möchten wir die Geflüchteten unterstützen.</p>
         </p>
         <a
-          href="https://www.ukraine-soforthilfe-hannover.de/helfen"
+          href="mailto:info@ukraine-soforthilfe.de"
           target="_blank"
           class="btn btn-primary"
         >
@@ -398,31 +398,25 @@
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
                     <form action="https://liveformhq.com/form/896bb07f-ff9e-4d1d-aacd-083296943671" method="POST">
-                        <input type="hidden" name="_utf8" value="✓">
-
-                        <input type="hidden" name="_redirect" value="https://urakine-soforthilfe-hannover.de/danke">
-                        
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="name" id="full_name"
+                                <input type="text" name="" id="full_name"
                                        placeholder="Vor- und Nachname"/>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="email" id="email"
+                                <input type="text" name="" id="email"
                                        placeholder="E-Mail Adresse"/>
                             </div>
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                                <textarea name="message" id="message"
+                                <textarea name="" id="message"
                                           cols="30" rows="3" placeholder="Gib hier deine Nachricht ein."></textarea>
                             </div>
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                                <div class="g-recaptcha" data-sitekey="6LdzB6weAAAAAPRM4jJKtx3lNXBGAHAuU4PN9k_R"
-                                data-callback="enableSubmit"></div>
-                                <button type="submit" class="btn btn-primary" id="submit-1" disabled>
+                                <button type="submit" class="btn btn-primary">
                                     <i class="icon-mail-fill"></i>
                                     Nachricht senden!
                                 </button>
@@ -441,15 +435,6 @@
             </div>
         </div>
     </div>
-
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-<script>
-function enableSubmit() {
-  var btn = document.getElementById('submit-1');
-  btn.disabled = false;
-  btn.title = '';
-}
-</script>
 </section>
 
 
@@ -461,24 +446,17 @@ function enableSubmit() {
     <div class="col-12 text-center">
       <h2>Newsletter abbonieren.</h2>
       <div class="rad-subscription-group">
-        <form id="rad-subscription" action="https://liveformhq.com/form/49652c57-1d5f-4f59-9284-9d6c0fcea685"
-        method="POST" accept-charset="utf-8">
-
-
-  <input type="hidden" name="_utf8" value="✓">
-
-  <input type="hidden" name="_redirect" value="https://urakine-soforthilfe-hannover.de/danke">
+        <form id="rad-subscription" action="">
           <input
-            id="newsletter-email"
+            id="rad-subscription-email"
             type="email"
             class="form-control"
-            name = "newsletter-email"
             aria-describedby="emailHelp"
-            placeholder="E-Mail Adresse..."
-            aria-label="E-Mail Addresse"
+            placeholder="Email Address..."
+            aria-label="Email Address"
           />
           <button type="submit" id="rad-subscription-submit" class="btn btn-light btn-rounded">
-            Anmelden
+            Sign Up
           </button>
         </form>
         <div id="rad-subscription-success" class="d-none">
@@ -487,7 +465,7 @@ function enableSubmit() {
         <div id="rad-subscription-fail" class="d-none">
           <p>Fehler beim abonnieren.</p>
         </div>
-        
+        <script src="/js/subscription.js"></script>
       </div>
       <small id="emailHelp" class="form-text text-muted"
         >Bitte beachte unsere Datenschutzerklärung.</small
@@ -522,11 +500,7 @@ function enableSubmit() {
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="https://ukraine-soforthilfe-hannover.de/impressum">IMPRESSUM</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link" href="https://ukraine-soforthilfe-hannover.de/datenschutz">DATENSCHUTZ</a>
+          <a class="nav-link" href="https://ukraine-soforthilfe-hannover.de/">IMPRESSUM</a>
         </li>
         
       </ul>
