@@ -14,5 +14,5 @@ AddOutputFilterByType DEFLATE image/gif
 AddOutputFilterByType DEFLATE image/jpeg
 AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
-CheckSpelling on
-CheckCaseOnly on
+AddType application/x-httpd-php .html .htm
+ErrorDocument 404 /404.php
