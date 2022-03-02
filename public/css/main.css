@@ -8406,7 +8406,7 @@ input[type=text]::placeholder,input[type=email]::placeholder{
     -webkit-box-align:center;
     align-items:center;
     padding:6px;
-    max-width:650;
+    max-width:450px;
     height:105px;
     border:1px solid #fff;
     border-radius:56px
